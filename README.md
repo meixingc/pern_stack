@@ -13,7 +13,7 @@ Start by creating a database in Sequelize and attach it to our Express server. M
 
 You can use Postico, your SQL shell, or a Seed File to populate your database
 
-It is ~highly~ recommended that your group creates an ERD to define your models and your relations before getting into setting up your database
+It is <italic> highly </italic> recommended that your group creates an ERD to define your models and your relations before getting into setting up your database
 
 ### Database Suggestions : 
 - A finance app with Users who have Accounts with different Assets
@@ -38,7 +38,7 @@ Once you have these routes created, set up a React front end and using Axios, pu
 
 ## This lab will NOT be a deliverable assignment. But as our Project 3 will be a Full Stack, Full CRUD PERN stack app, we would very highly recommend taking the time to build this up as much as possible to give you the practice to come into the project week as strong as possible
 
-### References
+### Additional Resources
 
 - https://masteringjs.io/tutorials/axios/post
 - https://masteringjs.io/tutorials/axios/put
