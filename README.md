@@ -2,13 +2,23 @@
 
 # PERN Full Stack Lab
 
-(!Pern)[https://media.geeksforgeeks.org/wp-content/cdn-uploads/20200402205611/What-is-PERN-Stack.png]
+[Pern](https://media.geeksforgeeks.org/wp-content/cdn-uploads/20200402205611/What-is-PERN-Stack.png)
 
 For this lab, lets take our Back End skills in Sequelize and Express and combine them with our React front end to create a full stack application using our relational databases
 
+
+
 Start by creating a database in Sequelize and attach it to our Express server. Make sure to install and use CORS and all necessary middleware. Your Database should have at least 3 related models. Test your routes and controllers in Insomnia and load them up on localhost:3001.
 
-You can use Postico, your SQL shell, or 
+You can use Postico, your SQL shell, or a Seed File to populate your database
+
+It is ~highly~ recommended that your group creates an ERD to define your models and your relations before getting into setting up your database
+
+### Database Suggestions : 
+- A finance app with Users who have Accounts with different Assets
+- A mock IMDB that has Movies each containing different Actors and Reviews
+- A sports DB that has a League with Teams containing players
+- Anything you want!
 
 Once you have these routes created, set up a React front end and using Axios, pull and render your data.
 
@@ -23,3 +33,15 @@ Once you have these routes created, set up a React front end and using Axios, pu
 
 - Try to use Axios's Post, Put, and Delete methods to give your front end app Full CRUD, creating your first Full CRUD, Full Stack app. 
 - Use your dynamic endpoints (/:id) to have both Index and Show routes for your data.
+
+
+## This lab will NOT be a deliverable assignment. But as our Project 3 will be a Full Stack, Full CRUD PERN stack app, we would very highly recommend taking the time to build this up as much as possible to give you the practice to come into the project week as strong as possible
+
+### References
+
+- https://masteringjs.io/tutorials/axios/post
+- https://masteringjs.io/tutorials/axios/put
+- https://masteringjs.io/tutorials/axios/delete
+- https://medium.com/bb-tutorials-and-thoughts/how-to-develop-and-build-pern-stack-4fc18a1e5937
+
+
