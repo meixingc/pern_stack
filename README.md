@@ -13,7 +13,9 @@ Start by creating a database in Sequelize and attach it to our Express server. M
 
 You can use Postico, your SQL shell, or a Seed File to populate your database
 
-It is <italic> highly </italic> recommended that your group creates an ERD to define your models and your relations before getting into setting up your database
+It is highly recommended that your group creates an ERD to define your models and your relations before getting into setting up your database
+
+It probably wouldn't hurt to create a Component Hierarchy Diagram as well!
 
 ### Database Suggestions : 
 - A finance app with Users who have Accounts with different Assets
