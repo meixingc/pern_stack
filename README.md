@@ -19,8 +19,10 @@ It probably wouldn't hurt to create a Component Hierarchy Diagram as well!
 
 ### Database Suggestions : 
 - A finance app with Users who have Accounts with different Assets
-- A mock IMDB that has Movies each containing different Actors and Reviews
+- A mock IMDB that has Movies with Actors
 - A sports DB that has a League with Teams containing players
+- A travel app that has locations and activities
+- ECommerce site with departments and products
 - Anything you want!
 
 Once you have these routes created, set up a React front end and using Axios, pull and render your data.
