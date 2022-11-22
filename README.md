@@ -27,6 +27,15 @@ It probably wouldn't hurt to create a Component Hierarchy Diagram as well!
 
 Once you have these routes created, set up a React front end and using Axios, pull and render your data.
 
+You will want to run your Create-React-App command inside of your Root directory. You can call it whatever you'd like, but for now, I'll be referring to it as "Client".
+
+Your Client folder, with all of the necessary React files and folders should be a sibling to your Config.json, Models, Migrations and Controllers folder. 
+
+Open up a second tab in your terminal so that you can have Localhost:3001 and :3000 running together
+
+What Middleware will you need to make sure your ports are working correctly?
+
+
 ### Requirements 
 - A Sequelize Database attached to an Express server with at least 3 related models and routes
 - Full CRUD with at least one of your models on the back end
